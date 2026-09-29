@@ -3,7 +3,7 @@ public class Main {
         EstrategiaComision estandar = new ComisionEstandar();
         EstrategiaComision personalizada = new ComisionPersonalizada();
 
-        Vendedor vendedor = new Vendedor("Elvis ", 1500.0, estandar);
+        Vendedor vendedor = new Vendedor("Elvis ", 1500.0, personalizada);
 
         System.out.println("--- DETALLE CON COMISIÓN ESTÁNDAR (5%) ---");
         vendedor.mostrarDetalle();
